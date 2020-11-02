@@ -1,0 +1,263 @@
+ .container{
+ 	
+ 	margin:auto;
+    width: 90px;
+    height: 200px;
+    position: relative;
+     
+}
+
+
+ 
+.one{
+   background-color:black;
+   height:180px;
+   width:70px;
+   border-radius: 90px;
+   position: absolute;
+  top: 3px;
+  left: 10px;
+
+
+}
+
+.another{
+--s:3px;
+background-color: #9D8F7E;
+height: 50px;
+position: relative;
+top: 30px;
+margin: 8px 0px -45px 3px;
+width: 78px;
+border: 1px ridge black; 
+border-left:var(--s) solid;
+border-right:var(--s) solid;
+border-bottom: 3px solid black;
+clip-path:polygon(
+      0 var(--s)                 ,var(--s) 0, 
+      calc(100% - var(--s)) 0   ,100% var(--s),
+      100% calc(100% - var(--s)),calc(100% - var(--s)) 100%,
+      var(--s) 100%             ,0 calc(100% - var(--s)))
+
+
+
+}
+
+
+.two{
+background-color: #9D8F7E;
+height: 169px;
+position: relative;
+top: 30px;
+margin: -168px -10px -90px 9px;
+width: 70px;
+border: 1px solid black;
+z-index: 9;
+
+
+
+}
+
+.twoanother{
+
+background-color: #E4E0D8;
+height: 50px;
+position: relative;
+top: -46px;
+margin: 49px 50px -48px 7.5px;
+width: 50px;
+/*border: 1px solid black;  */
+z-index: 9;	
+border-top: 2px solid white;
+border-left: 3px solid black;
+border-right: 2px solid white;
+border-bottom: 2px solid black;
+outline: 1px solid black;
+outline-offset: -3px;
+
+}
+
+.twoanother:before{
+	content: "";
+    top:2px;
+    left:2px;
+    right:2px;
+    bottom:2px;
+   /*border: green 2px solid; */
+    position: absolute;	
+    outline:1px solid black;
+    outline-offset: 3px;
+}
+
+
+#control{
+	height: 100px;
+    position: relative;
+    background-color: #FFFACD;
+    margin-top: 20px;
+    border: 1px solid #FFFACD ;
+
+ /*   display: block;
+overflow: auto;*/
+    
+}
+#button{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.circle{
+background-color: black;
+height: 35px;
+position: relative;
+top: -48px;
+margin: 54px 100px -48px 6px;
+width: 35px;
+border: 1px solid black;  
+z-index: 9;	
+border-radius: 50%;
+
+}
+
+.red{
+	background-color: red;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.green{
+	background-color: green;
+}
+
+body{
+	background-color: #2c3e50;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+#timer{
+
+width: 10%;
+
+background-color: gray;
+color: white;
+border-radius: 10px;
+display: inline-block;	
+}
+
+.parent{
+	text-align: center;
+
+}
+
+.below{
+background-color: black	;
+height: 38px;
+position: relative;
+top: 30px;
+margin: 70px 0px -55px 2px;
+width: 80px;
+
+}
+
+.belowtwo{
+background-color: white	;
+height: 43px;
+position: relative;
+top: 31px;
+margin: 50px 0px -110px 4px;
+width: 83px;
+border: 1px solid black;
+
+
+}
+
+.statemachine{
+	/*background-color: white;*/
+	width: 400px;
+	height: 200px;
+	margin: -220px 60px 100px 90px;
+	top: 50px;
+	bottom: 50px;
+	border:1px solid black;
+}
+
+.square1{
+	border:2px solid blue;
+	width:100px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: white;
+ float: left;    
+  
+    margin: 5px 0px 0px 140px;
+    text-align: center;
+    vertical-align: middle;
+line-height: 50px;
+
+
+}
+
+.square2{
+	border:2px solid blue;
+	width:100px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: white;
+ float: left;    
+  
+    margin: 85px 0px 0px 140px;
+    text-align: center;
+    vertical-align: middle;
+line-height: 50px;
+}
+
+.square3{
+	border:2px solid blue;
+	width:100px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: white;
+ float: left;    
+  
+    margin: -120px 0px 0px 290px;
+    text-align: center;
+    vertical-align: middle;
+line-height: 50px;
+}
+
+.square4{
+	border:2px solid blue;
+	width:100px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: white;
+ float: left;    
+  
+    margin: -120px 0px 0px 5px;
+    text-align: center;
+    vertical-align: middle;
+line-height: 50px;
+}
+
+/*.arrow{
+ content: "";
+  display: block;
+  width: 2px;
+  height: 45px;
+  background-color: black;
+  transform: rotate(-45deg) translate(15px, 4px);
+  left: 0;
+  top: 0;	
+}*/
+ 
+
